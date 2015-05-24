@@ -91,10 +91,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Dll.cpp" />
+    <ClCompile Include="Source\ResourceSet.cpp" />
+    <ClCompile Include="Source\ActionOrder.cpp" />
+    <ClCompile Include="Source\Edge.cpp" />
+    <ClCompile Include="Source\GraphLoader.cpp" />
+    <ClCompile Include="Source\Action.cpp" />
+    <ClCompile Include="Source\Flow.cpp" />
+    <ClCompile Include="Source\Graph.cpp" />
+    <ClCompile Include="Source\Resource.cpp" />
     <ClCompile Include="Source\EventHandler.cpp" />
+    <ClCompile Include="Source\Dll.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\ResourceSet.h" />
+    <ClInclude Include="Source\ActionOrder.h" />
+    <ClInclude Include="Source\Edge.h" />
+    <ClInclude Include="Source\GraphLoader.h" />
+    <ClInclude Include="Source\Action.h" />
+    <ClInclude Include="Source\Flow.h" />
+    <ClInclude Include="Source\Graph.h" />
+    <ClInclude Include="Source\Resource.h" />
     <ClInclude Include="Source\EventHandler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
